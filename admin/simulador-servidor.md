@@ -21,3 +21,6 @@ C:\Users\Lena\Desktop\Programação\Desenvolve\Modulo 27\2016-JS-na-web-crud-com
  Watching...
 
 GET /profile 200 41.375 ms - 78
+
+// parar o server
+ctrl + c

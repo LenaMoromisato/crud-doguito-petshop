@@ -1,3 +1,14 @@
+# Curso JS na web: CRUD com JavaScript assíncrono
+
+> Status do projeto: em andamento
+
+Conteúdo do curso:
+
+
+-----
+
+## Server:
+
 abrir a pasta admin no vscode e 
 rodar o json server: 
 ```js
