@@ -1,6 +1,6 @@
 # Curso JS na web: CRUD com JavaScript assíncrono
 
-> Status do projeto: em andamento
+> Status do projeto: concluído
 
 Conteúdo do curso:
 
@@ -18,7 +18,9 @@ Conteúdo do curso:
 * Deletar um cliente utilizando o verbo http **DELETE**;
 * Fazer uma query string utilizando a propriedade **searchParams.get()** para encontrar um id;
 * Criar uma IIFE ou função auto executável;
-* Editar os dados utilizando o verbo http **PUT**.
+* Editar os dados utilizando o verbo http **PUT**;
+* Utilizar **async/await** para indicar funções assíncronas;
+* Tratar erros com **try/catch**.
 
 -----
 
@@ -29,5 +31,10 @@ rodar o json server:
 ```js
 json-server --watch db.json
 ```
+local:
+```js
+npx json-server --watch db.json
+```
+
 
 Rodar: browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
