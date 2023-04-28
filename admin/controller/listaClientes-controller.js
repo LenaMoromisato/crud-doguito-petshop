@@ -24,9 +24,10 @@ const tabela = document.querySelector('[data-tabela]');
 tabela.addEventListener('click', async (evento) => {
     let ehBotaoDeletar = evento.target.className === 'botao-simples botao-simples--excluir'
     if(ehBotaoDeletar) {
+        const linhaCliente = evento.target.closest('[data-id]');
+        let id = linhaCliente.dataset.id;
         try {
-            const linhaCliente = evento.target.closest('[data-id]');
-            let id = linhaCliente.dataset.id;
+            
             await clienteService.removeCliente(id)
             linhaCliente.remove()
         }
